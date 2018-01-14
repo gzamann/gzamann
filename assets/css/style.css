@@ -53,7 +53,13 @@
       height: 200px;
       width: 200px;
     }
-
+    .langs>a>img{
+      height: 100px;
+      width: 100px;
+    }
+    .langs>a{
+      margin: .7%;
+    }
     .hero {
       display: flex;
       justify-content: space-around;
@@ -212,8 +218,8 @@
 
 /* MEDIA QUERY */
 @media screen
-  and (min-width: 500px)
-  and (min-height: 1024px)
+  and (min-width: 400px)
+  and (min-height: 800px)
   and (orientation: portrait) {
   .hero>h1{
     margin:.6%;
