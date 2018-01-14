@@ -215,9 +215,11 @@
   and (min-width: 500px)
   and (min-height: 1024px)
   and (orientation: portrait) {
-  .hero{
-    font-size: 15px;
-    color: white;
+  .hero>h1{
+    margin:1%;
+  }
+  .hero>h1:first-of-type{
+    height: 1.5em;
   }
 }
 /* MEDIA QUERY END */
