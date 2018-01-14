@@ -8,7 +8,7 @@
       background-position: center;
     }
 
-    h1 {
+    .hero>h1 {
       font-weight: 100;
       font-size: 5em;
       color: #110f0f;
@@ -17,7 +17,7 @@
       background: #eee;
       border-radius: 20px;
     }
-    h1:nth-of-type(2){
+    .hero>h1:nth-of-type(2){
         background: #a29adf;
     }
     p {
@@ -79,6 +79,7 @@
       font-size: 3em;
       padding:3%;
       border-radius: 30px;
+      text-align: justify;
     }
 
     .absolute {
@@ -207,3 +208,16 @@
         height: 600px;
       }
     }
+
+
+/* MEDIA QUERY */
+@media screen
+  and (min-width: 500px)
+  and (min-height: 1024px)
+  and (orientation: portrait) {
+  .hero{
+    font-size: 10px;
+    color: white;
+  }
+}
+/* MEDIA QUERY END */
