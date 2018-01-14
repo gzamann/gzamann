@@ -216,7 +216,7 @@
   and (min-height: 1024px)
   and (orientation: portrait) {
   .hero>h1{
-    margin:1%;
+    margin:.6%;
   }
   .hero>h1:first-of-type{
     height: 1.5em;
