@@ -26,7 +26,7 @@
   background: #ffffff;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: var(--color-1);
+  background: #7abe79;
 }
 ::-webkit-scrollbar-track {
   background: #666666;
@@ -63,7 +63,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      background: var(--color-1);
+      background: #7abe79;
     }
 
     .social>a {
