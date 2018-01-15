@@ -1,3 +1,4 @@
+
     @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
     body {
       background: #081421;
@@ -6,8 +7,41 @@
       background-image: url(../backgrounds/);
       background-size: contain;
       background-position: center;
+      --color-1:#7abe79;
     }
-
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--color-1);
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
     .hero>h1 {
       font-weight: 100;
       font-size: 5em;
@@ -24,28 +58,28 @@
       font-weight: 300;
     }
 
-    .links {
+    .social,.langs {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      background: #7abe79;
+      background: var(--color-1);
     }
 
-    .links>a {
+    .social>a {
       /*animation-timing-function: cubic-bezier(.22, 1.46, .9, .05);*/
       animation-name: pop;
       animation-duration: .4s;
       animation-fill-mode: forwards;
       animation-iteration-count: 1;
     }
-	.links>a:nth-of-type(2){
+	.social>a:nth-of-type(2){
 		animation-delay: .1s;	
 	}
-	.links>a:nth-of-type(3){
+	.social>a:nth-of-type(3){
 		animation-delay: .2s;
 	}
-	.links>a:nth-of-type(4){
+	.social>a:nth-of-type(4){
 		animation-delay: .3s;
 	}
 
@@ -58,7 +92,7 @@
       }
     }
 
-    .links>a>img {
+    .social>a>img {
       height: 200px;
       width: 200px;
     }
