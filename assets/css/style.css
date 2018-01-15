@@ -32,20 +32,29 @@
       background: #7abe79;
     }
 
-    .links>a:hover {
-      animation-timing-function: cubic-bezier(.22, 1.46, .9, .05);
+    .links>a {
+      /*animation-timing-function: cubic-bezier(.22, 1.46, .9, .05);*/
       animation-name: pop;
-      animation-duration: 2s;
+      animation-duration: .4s;
       animation-fill-mode: forwards;
       animation-iteration-count: 1;
     }
+	.links>a:nth-of-type(2){
+		animation-delay: .1s;	
+	}
+	.links>a:nth-of-type(3){
+		animation-delay: .2s;
+	}
+	.links>a:nth-of-type(4){
+		animation-delay: .3s;
+	}
 
     @keyframes pop {
       50% {
-        transform: scale(2);
+        transform: scale(1.5);
       }
       100% {
-        transform: scale(.8);
+        transform: scale(1);
       }
     }
 
@@ -64,7 +73,6 @@
       display: flex;
       justify-content: space-around;
     }
-
     .profile {
       display: inline-block;
       float: left;
