@@ -277,3 +277,21 @@
   }
 }
 /* MEDIA QUERY END */
+
+.nimbus{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  right: -400px;
+  top: 600px;
+  animation-name: nimbusfly;
+  animation-duration: 30s;
+  animation-fill-mode: reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes nimbusfly {
+  100%{
+    right: 110%;
+  }
+}
