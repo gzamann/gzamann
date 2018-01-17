@@ -280,11 +280,11 @@
 /* MEDIA QUERY END */
 
 .nimbus{
-  position: absolute;
+  position: fixed;
   height: 250px;
   width: 250px;
   right: -400px;
-  top: 600px;
+  top: 65%;
   animation-name: nimbusfly;
   animation-duration: 30s;
   animation-fill-mode: reverse;
