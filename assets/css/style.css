@@ -66,21 +66,27 @@
       background: #7abe79;
     }
 
-    .social>a {
+     .social>a{
       /*animation-timing-function: cubic-bezier(.22, 1.46, .9, .05);*/
       animation-name: pop;
       animation-duration: .4s;
       animation-fill-mode: forwards;
       animation-iteration-count: 1;
+      animation-delay: 2s;
+    }
+    .social img:hover{
+      animation-name: pop;
+      animation-duration: .6s;
+      animation-fill-mode: forwards;
     }
 	.social>a:nth-of-type(2){
-		animation-delay: .1s;	
+		animation-delay: 2.1s;
 	}
 	.social>a:nth-of-type(3){
-		animation-delay: .2s;
+		animation-delay: 2.2s;
 	}
 	.social>a:nth-of-type(4){
-		animation-delay: .3s;
+		animation-delay: 2.3s;
 	}
 
     @keyframes pop {
