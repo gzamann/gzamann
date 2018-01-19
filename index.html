@@ -1,14 +1,16 @@
-<html>
 
 <head>
+  <html>
   <title>Welcome</title>
+  <link rel="stylesheet" href="assets/css/glide.core.css">
+  <link rel="stylesheet" href="assets/css/glide.theme.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-<div class="nimbusbox">
+<!-- <div class="nimbusbox">
   <img class="nimbus" src="assets/backgrounds/gokunimbus.png" alt="">
-</div>
+</div> -->
 
   <div class="hero">
     <div class="profile">
@@ -40,6 +42,36 @@
     <a href="" target="_blank"><img src="assets/backgrounds/wordpress.png"></a>
     <a href="" target="_blank"><img src="assets/backgrounds/cc.png"></a>
   </div>
+
+<div class="slidecontainer">
+  <div class="glide" id="Glide">
+    <div class="glide__arrows">
+        <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+        <button class="glide__arrow next" data-glide-dir=">">next</button>
+    </div>
+    <div class="glide__wrapper">
+      <ul class="glide__track">
+        <li class="glide__slide">
+          <div class="box" style="background-color: #77A7FB;"></div>
+        </li>
+        <li class="glide__slide">
+          <div class="box" style="background-color: #FBCB43;"></div>
+        </li>
+        <li class="glide__slide">
+          <div class="box" style="background-color: #34B67A;"></div>
+        </li>
+        <li class="glide__slide">
+          <div class="box" style="background-color: #95a5a6;"></div>
+        </li>
+        <li class="glide__slide">
+          <div class="box" style="background-color: #9b59b6;"></div>
+        </li>
+      </ul>
+    </div>
+    <ul class="glide__bullets"></ul>
+  </div>
+</div>
+
   <!-- <div class="links speaks">
     <a href=""><img src="" alt=""></a>
   </div> -->
@@ -84,5 +116,31 @@
   <h1>site under construction</h1>
 </div> -->
 </body>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="assets/js/glide.js"></script>
+<script type="text/javascript">
+  function coverflow(i, el) {
+    el.removeClass('pre following')
+        .nextAll()
+            .removeClass('pre following')
+            .addClass('following')
+        .end()
+        .prevAll()
+            .removeClass('pre following')
+            .addClass('pre');
+}
 
+$('#Glide').glide({
+    type: 'carousel',
+    startAt: 1,
+    animationDuration: 500,
+    paddings: '25%',
+    afterInit: function (event) {
+        coverflow(event.index, event.current);
+    },
+    afterTransition: function (event) {
+        coverflow(event.index, event.current);
+    }
+});
+</script>
 </html>
