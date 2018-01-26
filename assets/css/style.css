@@ -166,9 +166,6 @@
   and (min-width: 400px)
   and (min-height: 700px)
   and (orientation: portrait) {
-    body{
-      background:white;
-    }
   .hero>h1{
     margin:.6%;
   }
@@ -450,18 +447,30 @@
 
 /* SLIDErrr */
 /* SLIDER */
+.langs{
+  margin-bottom: 45px;
+}
 .cards{
   margin:0 auto;
-  height: 450px;
+  height:600px;
   width: 70vw;
 }
+.slide1,.slide2{
+  border-radius: 25px;
+}
 .card-slides>li:first-of-type{
-  background: black;
+  background: transparent;
   background-image: url(/assets/backgrounds/bdtree.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  /* background: transparent; */
 }
 .card-slides>li:nth-of-type(2){
-  background: black;
+  background: transparent;
+  background-image: url(/assets/backgrounds/bdtree1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
