@@ -2,12 +2,13 @@
   <html>
   <title>Welcome</title>
   <link rel="stylesheet" href="assets/css/style.css">
+</script>
 </head>
 
 <body>
-  <div class="nimbusbox">
+  <!-- <div class="nimbusbox">
     <img class="nimbus" src="assets/backgrounds/gokunimbus.png" alt="">
-  </div>
+  </div> -->
 
   <div class="hero">
     <div class="profile">
@@ -42,9 +43,32 @@
     <a href="" target="_blank"><img src="assets/backgrounds/cc.png"></a>
   </div>
 
+  <div class="cards">
+  	<ul class="card-slides">
+  		<li></li>
+  		<li>card 2</li>
+  	</ul>
+  </div>
+
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="assets/js/jquery.cardslider.js"></script>
 <script type="text/javascript">
-</script>
 
+			var cardslider = $('.cards').cardslider({
+				swipe: true,
+				dots: true,
+				loop: true,
+        keys: false
+			}).data('cardslider');
+
+			$('.skiplink').on('click', function(e) {
+				e.preventDefault();
+				cardslider.changeCardTo('last');
+			});
+
+      // $(function() {
+      //   $('.cards').cardslider();
+      // });
+</script>
 </html>
