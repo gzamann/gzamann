@@ -164,8 +164,11 @@
 /* MEDIA QUERY */
 @media screen
   and (min-width: 400px)
-  and (min-height: 800px)
+  and (min-height: 700px)
   and (orientation: portrait) {
+    body{
+      background:white;
+    }
   .hero>h1{
     margin:.6%;
   }
@@ -173,8 +176,11 @@
     height: 1.5em;
   }
   .cards{
-    height: 600px;
-    width: 90vw;
+    height: 1000px;
+    width: 100vw;
+  }
+  .langs{
+    margin-bottom: 15px;
   }
 }
 /* MEDIA QUERY END */
@@ -211,6 +217,8 @@
   .cardslider__cards {
     width: 80%;
     height: 80%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -444,7 +452,6 @@
 /* SLIDER */
 .cards{
   margin:0 auto;
-  height: 450px;
   height: 450px;
   width: 70vw;
 }
