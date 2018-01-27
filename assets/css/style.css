@@ -440,7 +440,7 @@
 .card-slides>li:first-of-type{
   background: transparent;
   /* background: black; */
-  background-image: url(/assets/backgrounds/bdtree.png);
+  background-image: url(../backgrounds/bdtree.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -448,14 +448,28 @@
 }
 .card-slides>li:nth-of-type(2){
   background: transparent;
-  background-image: url(/assets/backgrounds/bdtree1.png);
+  background-image: url(../backgrounds/bdtree1.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-slides>li:nth-of-type(3){
   background: transparent;
-  background-image: url(/assets/backgrounds/bg.jpg);
+  background-image: url(../backgrounds/bg1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-slides>li:nth-of-type(4){
+  background: transparent;
+  background-image: url(../backgrounds/bg2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-slides>li:nth-of-type(5){
+  background: transparent;
+  background-image: url(../backgrounds/bg3.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
