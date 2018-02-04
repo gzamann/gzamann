@@ -731,7 +731,7 @@ p {
   animation-name: shadow;
   animation-fill-mode: forwards;
   box-shadow: 4px 4px 25px black;
-  transform: scale(1.1);
+  transform: scale(1.25);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .langc{
