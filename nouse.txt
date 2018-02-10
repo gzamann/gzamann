@@ -148,77 +148,14 @@ SVG end
 <h1>site under construction</h1>
 </div> -->
 
-/* GLIDE */
-.slidecontainer{
-  display: flex;
-  justify-content: center;
-}
-.box {
-  width: 100%;
-  height: 60vh;
-  border-radius: 12px;
 
-}
-.glide{
-  height: 710px;
-
-}
-.glide__wrapper {
-  padding: 1vh 0;
-  margin-top: 10vh;
-}
-.glide__track {
-  overflow: visible;
-  height: 60vh;
-}
-.glide__slide {
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-.glide__slide.active {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-}
-.glide__slide.pre {
-  -webkit-transform: perspective(50em) rotateY(15deg);
-          transform: perspective(50em) rotateY(15deg);
-}
-.glide__slide.following {
-  -webkit-transform: perspective(50em) rotateY(-15deg);
-          transform: perspective(50em) rotateY(-15deg);
-}
-.glide--horizontal .glide__bullets {
-  bottom: 25%;
-}
-<!-- <div class="slidecontainer">
-  <div class="glide" id="Glide">
-    <div class="glide__arrows">
-        <button class="glide__arrow prev" data-glide-dir="<">prev</button>
-        <button class="glide__arrow next" data-glide-dir=">">next</button>
-    </div>
-    <div class="glide__wrapper">
-      <ul class="glide__track">
-        <li class="glide__slide">
-          <div class="box" style="background-color: #77A7FB;"></div>
-        </li>
-        <li class="glide__slide">
-          <div class="box" style="background-color: #FBCB43;"></div>
-        </li>
-        <li class="glide__slide">
-          <div class="box" style="background-color: #34B67A;"></div>
-        </li>
-        <li class="glide__slide">
-          <div class="box" style="background-color: #95a5a6;"></div>
-        </li>
-        <li class="glide__slide">
-          <div class="box" style="background-color: #9b59b6;"></div>
-        </li>
-      </ul>
-    </div>
-    <ul class="glide__bullets"></ul>
-  </div>
-</div> -->
+<!--
+  <div class="cards">
+  	<ul class="card-slides">
+  		<li> </li>
+  		<li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  	</ul>
+  </div> -->

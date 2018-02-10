@@ -596,7 +596,7 @@ p {
 /* SLIDER */
 
 .langs {
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
 }
 
 .cards {
@@ -653,14 +653,21 @@ p {
 
 
 /* 1feb */
-
+.designs{
+  background: black;
+  background-image: url(../backgrounds/bg13.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-bottom: 3%;
+}
 .cardsrow {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 3%;
   width: 100%;
-  background: #7134802b;
+  /* background: #7134802b; */
   margin-bottom: 30px;
 }
 
@@ -810,3 +817,14 @@ p {
 }
 
 /* MEDIA QUERY END */
+
+.bio{
+  background-image: url(../backgrounds/space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.designs>.midheadings{
+  color: #efefef;
+}
