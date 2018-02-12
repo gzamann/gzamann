@@ -825,6 +825,12 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.bio:before{
+	position: fixed;
+}
+.designs:before{
+	position: fixed;
+}
 .designs>.midheadings{
   color: #efefef;
 }
