@@ -653,12 +653,12 @@ p {
 
 
 /* 1feb */
-.designs{
+.designs{/*
   background: black;
   background-image: url(../backgrounds/bg13.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
   padding-bottom: 3%;
 }
 .cardsrow {
