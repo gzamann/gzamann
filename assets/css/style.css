@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
 body {
   background: #081421;
   color: #999;
@@ -354,11 +355,13 @@ p {
 
 .insidefooter span {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 87px;
+  letter-spacing: 3.5px;
   color: #efefef;
-  padding: 15px;
+  padding: 30px 19px;
   margin-top: 150px;
   position: absolute;
+  background:#1313136e;
 }
 
 /* 4 feb end */
