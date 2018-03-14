@@ -117,8 +117,8 @@ p {
 }
 
 .social>a>img {
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
 }
 
 .langs>a>img {
@@ -288,6 +288,7 @@ p {
   width: 100%;
   background: #7134802b;
   margin-bottom: 30px;
+  padding: 14px 0;
 }
 
 .langc:hover {
@@ -300,9 +301,9 @@ p {
 }
 
 .langc {
-  height: 150px;
-  width: 200px;
-  background-size: 200px 150px;
+  height: 100px;
+  width: 140px;
+  background-size: 140px 100px;
   border-radius: 9px;
 }
 
@@ -358,6 +359,7 @@ p {
   font-size: 87px;
   letter-spacing: 3.5px;
   color: #efefef;
+  text-align: center;
   padding: 30px 19px;
   margin-top: 150px;
   position: absolute;
