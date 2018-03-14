@@ -368,30 +368,6 @@ p {
 
 /* 4 feb end */
 
-/* MEDIA QUERY */
-
-@media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
-  .hero>h1 {
-    margin: .6%;
-  }
-  .hero>h1:first-of-type {
-    height: 1.5em;
-  }
-  .cards {
-    margin: 0 auto;
-    height: 550px;
-    width: 95vw;
-  }
-  .langs {
-    /*margin-bottom: 15px;*/
-  }
-  .langc {
-    margin-bottom: 15px;
-  }
-}
-
-/* MEDIA QUERY END */
-
 .bio {
   background-image: url(../backgrounds/space.jpg);
   background-position: center;
@@ -411,3 +387,34 @@ p {
 .designs>.midheadings {
   color: #efefef;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
+  .hero {
+    align-items: center;
+    padding: 10px 0;
+  }
+  .hero>h1{
+    margin: .6%;
+    height: 1.3em;
+    padding: 6px;
+    font-size: 64px;
+  }
+  .profile>img{
+    border-radius: 20px;
+  }
+  .cards {
+    margin: 0 auto;
+    height: 550px;
+    width: 95vw;
+  }
+  .langs {
+    /*margin-bottom: 15px;*/
+  }
+  .langc {
+    margin-bottom: 15px;
+  }
+}
+
+/* MEDIA QUERY END */
