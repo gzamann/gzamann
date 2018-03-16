@@ -141,7 +141,8 @@ p {
 }
 
 .profile>img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 20px;
   margin-top: 18%;
 }
 
