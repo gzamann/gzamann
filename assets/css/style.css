@@ -292,7 +292,7 @@ p {
   padding: 14px 0;
 }
 
-.langc:hover {
+/* .langc:hover {
   border-radius: 9px;
   animation-name: shadow;
   animation-fill-mode: forwards;
@@ -332,7 +332,7 @@ p {
 
 .langc:nth-of-type(5) {
   background-image: url(../backgrounds/spn.jpg);
-}
+} */
 
 /* 1feb */
 
