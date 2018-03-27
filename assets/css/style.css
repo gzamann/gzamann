@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-
 body {
   background: #081421;
   color: #999;
@@ -72,7 +71,8 @@ p {
   font-weight: 300;
 }
 
-.social, .langs {
+.social,
+.langs {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -364,7 +364,7 @@ p {
   padding: 30px 19px;
   margin-top: 150px;
   position: absolute;
-  background:#1313136e;
+  background: #1313136e;
 }
 
 /* 4 feb end */
@@ -396,13 +396,13 @@ p {
     align-items: center;
     padding: 10px 0;
   }
-  .hero>h1{
+  .hero>h1 {
     margin: .6%;
     height: 1.3em;
     padding: 6px;
     font-size: 64px;
   }
-  .profile>img{
+  .profile>img {
     border-radius: 20px;
   }
   .cards {
