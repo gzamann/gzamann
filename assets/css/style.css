@@ -366,6 +366,11 @@ p {
   position: absolute;
   background: #1313136e;
 }
+.insidefooter>span::after{
+  content: "zman97619@gmail.com";
+  font-size:34px;
+  display: block;
+}
 
 /* 4 feb end */
 
@@ -413,6 +418,7 @@ p {
   padding: 3px;
   display: inline-block;
   border-radius: 7px;
+  transition: all ease-in-out .2s;
 }
 .uxlink>span {
     display: inline-block;
@@ -425,7 +431,10 @@ p {
     font-weight: 800;
     font-size: 3rem;
   }
-
+.uxlink:hover{
+  box-shadow: 1px 1px 20px 2px #00C0FF;
+  transform:scale(1.03);
+}
 
 /* MEDIA QUERY */
 
