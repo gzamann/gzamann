@@ -283,16 +283,18 @@ p {
 
 .langrow {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 3%;
+  margin-top: 1%;
   width: 100%;
-  background: #7134802b;
+  width: 60%;
+  /* background: #7134802b; */
+  margin: 0 auto;
   margin-bottom: 30px;
   padding: 14px 0;
 }
 
-/* .langc:hover {
+.langc:hover {
   border-radius: 9px;
   animation-name: shadow;
   animation-fill-mode: forwards;
@@ -302,9 +304,9 @@ p {
 }
 
 .langc {
-  height: 100px;
-  width: 140px;
-  background-size: 140px 100px;
+  height: 60px;
+  width: 80px;
+  background-size: 80px 60px;
   border-radius: 9px;
 }
 
@@ -332,7 +334,7 @@ p {
 
 .langc:nth-of-type(5) {
   background-image: url(../backgrounds/spn.jpg);
-} */
+}
 
 /* 1feb */
 
