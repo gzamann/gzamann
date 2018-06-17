@@ -107,6 +107,10 @@ p {
   animation-delay: 2.3s;
 }
 
+.social>a:nth-of-type(5) {
+  animation-delay: 2.5s;
+}
+
 @keyframes pop {
   50% {
     transform: scale(1.5);
