@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 body {
   background: #081421;
   color: #999;
-  font-family: Roboto;
+  font-family:Pacifico;
   background-image: url(../backgrounds/);
   background-size: contain;
   background-position: center;
   --color-1: #7abe79;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 ::-webkit-scrollbar {
@@ -140,17 +143,6 @@ p {
   display: flex;
   justify-content: space-around;
 } */
-
-.profile {
-  display: inline-block;
-  float: left;
-}
-
-.profile>img {
-  /* border-radius: 50%; */
-  border-radius: 20px;
-  margin-top: 18%;
-}
 
 .bio {
   /* display: flex; */
@@ -428,7 +420,7 @@ p {
 /* MEDIA QUERY */
 
 @media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
-  .hero {
+  /* .hero {
     align-items: center;
     padding: 10px 0;
   }
@@ -437,9 +429,15 @@ p {
     height: 1.3em;
     padding: 6px;
     font-size: 64px;
-  }
-  .profile>img {
+  } */
+  /* .profile>img {
     border-radius: 20px;
+  } */
+  .cover>h1{
+    font-size: 80px;
+  }
+  .bio{
+    font-size: 30px;
   }
   .cards {
     margin: 0 auto;
@@ -458,21 +456,26 @@ p {
 
 .cover{
   background: #110f0f;
+  background: #233096;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   color: #efefef;
 }
 .cover1{
-  width: 20%;
+  width:20% ;
+  /* margin-top: 3%; */
+  /* margin-bottom: 3%; */
 }
 .cover2{
   font-size:;
   width:40%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  z-index: 5;
+  /* margin-top: 3%; */
+  /* margin-bottom: 3%; */
 }
 /* .bio {
   background-image: url(../backgrounds/space.jpg);
@@ -485,12 +488,30 @@ p {
 .bio:before {
   position: fixed;
 } */
-
-.bio{
-  font-size: 30px;
+.cover2>h1{
+  font-size: 40px;
+  letter-spacing:4px;
 }
-.profile>img{
-  border-radius: 50%;
+.cover2>h1>span{
+  color: #6A77DF;
+}
+.bio{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.profile {
+  display: inline-block;
+  /* float: left; */
+}
+#mepic{
+  filter: brightness(1.1) contrast(2.4) grayscale(1) hue-rotate(0deg) invert(0.32) saturate(0) sepia(0.11);
+}
+.profile>img {
+  /* border-radius: 20px; */
+  /* margin-top: 18%; */
+  border-radius: 5pc;
+  width: 360px;
+  height: 360px;
 }
 .social{
   display: flex;
