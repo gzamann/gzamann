@@ -481,6 +481,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   width: 300px;
+  margin-top: 16px;
 }
 
 /* MEDIA QUERY */
@@ -505,13 +506,17 @@ p {
   .bio{
     font-size: 36px;
   }
+  .bio>p{
+    display: inline;
+    background: #6a77df3b;
+  }
   .cards {
     margin: 0 auto;
     height: 550px;
     width: 95vw;
   }
   .social{
-    width: 328;
+    width: 328px;
   }
   .social>a>img{
     height: 54px;
