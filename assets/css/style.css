@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 body {
   background: #081421;
   color: #999;
-  font-family: Roboto;
+  font-family:Pacifico;
   background-image: url(../backgrounds/);
   background-size: contain;
   background-position: center;
   --color-1: #7abe79;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 ::-webkit-scrollbar {
@@ -71,7 +74,6 @@ p {
   font-weight: 300;
 }
 
-.social,
 .langs {
   display: flex;
   flex-direction: row;
@@ -93,6 +95,7 @@ p {
   animation-name: pop;
   animation-duration: .6s;
   animation-fill-mode: forwards;
+  /* filter: none; */
 }
 
 .social>a:nth-of-type(2) {
@@ -114,15 +117,17 @@ p {
 @keyframes pop {
   50% {
     transform: scale(1.5);
+    filter:none;
   }
   100% {
     transform: scale(1);
+    filter:none;
   }
 }
 
 .social>a>img {
-  height: 160px;
-  width: 160px;
+  height: 40px;
+  width: 40px;
 }
 
 .langs>a>img {
@@ -134,35 +139,16 @@ p {
   margin: .7%;
 }
 
-.hero {
+/* .hero {
   display: flex;
   justify-content: space-around;
-}
-
-.profile {
-  display: inline-block;
-  float: left;
-}
-
-.profile>img {
-  /* border-radius: 50%; */
-  border-radius: 20px;
-  margin-top: 18%;
-}
+} */
 
 .bio {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
-.bio>p {
-  background: #fefefe;
-  width: 70%;
-  font-size: 3em;
-  padding: 3%;
-  border-radius: 30px;
-  text-align: center;
-}
 
 .absolute {
   position: absolute;
@@ -380,17 +366,6 @@ p {
 
 /* 4 feb end */
 
-.bio {
-  background-image: url(../backgrounds/space.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.bio:before {
-  position: fixed;
-}
 
 .designs:before {
   position: fixed;
@@ -427,16 +402,16 @@ p {
   transition: all ease-in-out .2s;
 }
 .uxlink>span {
-    display: inline-block;
-    background: #191919;
-    color: white;
-    text-transform: uppercase;
-    padding: 2rem 5rem;
-    border-radius: 5px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 800;
-    font-size: 3rem;
-  }
+  display: inline-block;
+  background: #191919;
+  color: white;
+  text-transform: uppercase;
+  padding: 2rem 5rem;
+  border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 800;
+  font-size: 3rem;
+}
 .uxlink:hover{
   box-shadow: 1px 1px 20px 2px #00C0FF;
   transform:scale(1.03);
@@ -445,7 +420,7 @@ p {
 /* MEDIA QUERY */
 
 @media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
-  .hero {
+  /* .hero {
     align-items: center;
     padding: 10px 0;
   }
@@ -454,9 +429,15 @@ p {
     height: 1.3em;
     padding: 6px;
     font-size: 64px;
-  }
-  .profile>img {
+  } */
+  /* .profile>img {
     border-radius: 20px;
+  } */
+  .cover>h1{
+    font-size: 80px;
+  }
+  .bio{
+    font-size: 30px;
   }
   .cards {
     margin: 0 auto;
@@ -472,3 +453,68 @@ p {
 }
 
 /* MEDIA QUERY END */
+
+.cover{
+  background: #110f0f;
+  background: #233096;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  color: #efefef;
+}
+.cover1{
+  width:20% ;
+  /* margin-top: 3%; */
+  /* margin-bottom: 3%; */
+}
+.cover2{
+  font-size:;
+  width:40%;
+  z-index: 5;
+  /* margin-top: 3%; */
+  /* margin-bottom: 3%; */
+}
+/* .bio {
+  background-image: url(../backgrounds/space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+/* 
+.bio:before {
+  position: fixed;
+} */
+.cover2>h1{
+  font-size: 40px;
+  letter-spacing:4px;
+}
+.cover2>h1>span{
+  color: #6A77DF;
+}
+.bio{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.profile {
+  display: inline-block;
+  /* float: left; */
+}
+#mepic{
+  filter: brightness(1.1) contrast(2.4) grayscale(1) hue-rotate(0deg) invert(0.32) saturate(0) sepia(0.11);
+}
+.profile>img {
+  /* border-radius: 20px; */
+  /* margin-top: 18%; */
+  border-radius: 5pc;
+  width: 360px;
+  height: 360px;
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
