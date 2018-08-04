@@ -484,6 +484,10 @@ p {
   margin-top: 16px;
 }
 
+.bio>p{
+  display: inline;
+  background: #6a77df3b;
+}
 /* MEDIA QUERY */
 
 @media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
@@ -505,10 +509,6 @@ p {
   }
   .bio{
     font-size: 36px;
-  }
-  .bio>p{
-    display: inline;
-    background: #6a77df3b;
   }
   .cards {
     margin: 0 auto;
