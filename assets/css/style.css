@@ -469,6 +469,11 @@ p {
 }
 #mepic{
   filter: brightness(1.1) contrast(2.4) grayscale(1) hue-rotate(0deg) invert(0.32) saturate(0) sepia(0.11);
+  transition: all ease-in-out 0.4s;
+}
+#mepic:hover{
+  filter:none;
+  box-shadow: -4px 4px 20px 2px #6a77df87;
 }
 .profile>img {
   /* border-radius: 20px; */
@@ -488,6 +493,8 @@ p {
   display: inline;
   background: #6a77df3b;
 }
+
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
