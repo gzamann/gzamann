@@ -112,25 +112,6 @@ p {
   width: 40px;
 }
 
-.langs>a>img {
-  height: 100px;
-  width: 100px;
-}
-
-.langs>a {
-  margin: .7%;
-}
-
-/* .hero {
-  display: flex;
-  justify-content: space-around;
-} */
-
-.bio {
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
 .cover {
   background: #110f0f;
   background: #233096;
