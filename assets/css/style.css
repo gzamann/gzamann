@@ -132,6 +132,7 @@ p {
   width: 100%;
   height: 95vh;
   color: #efefef;
+  z-index: 10;
 }
 
 .cover1 {
@@ -164,6 +165,7 @@ p {
 .bio {
   font-size: 20px;
   letter-spacing: 2px;
+  z-index: 10;
 }
 
 .profile {
@@ -186,6 +188,7 @@ p {
   border-radius: 5pc;
   width: 360px;
   height: 360px;
+  z-index: 10;
 }
 
 .social {
@@ -198,6 +201,18 @@ p {
 .bio>p {
   display: inline;
   background: #6a77df3b;
+}
+
+.backbox{
+  position: absolute;
+  height: 100vh;
+  width: 60vw;
+  left: 20%;
+  overflow: hidden;
+  transform:skewY(113deg) rotateY(0deg);
+  background: #eeeeee0f;
+  background:#081421;
+  z-index: 1;
 }
 
 /* MEDIA QUERY */
