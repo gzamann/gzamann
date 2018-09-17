@@ -209,8 +209,8 @@ p {
   width: 60vw;
   left: 20%;
   overflow: hidden;
-  transform:skewY(113deg) rotateY(0deg);
-  background: #eeeeee0f;
+  transform:skewY(113deg) rotateY(0deg) rotateX(0deg);
+  /* background: #eeeeee0f; */
   background:#081421;
   z-index: 1;
 }
@@ -236,5 +236,8 @@ p {
   .social>a>img {
     height: 54px;
     width: 54px;
+  }
+  .backbox{
+    display: none;
   }
   /* MEDIA QUERY END */
