@@ -60,7 +60,7 @@ body {
   background-image: url(../backgrounds/);
   background-size: contain;
   background-position: center;
-  overflow-x: hidden;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   top: 20px;
@@ -207,7 +207,7 @@ p {
   position: absolute;
   height: 100vh;
   width: 60vw;
-  left: 20%;
+  left: 22.5%;
   overflow: hidden;
   transform:skewY(113deg) rotateY(0deg) rotateX(0deg);
   /* background: #eeeeee0f; */
