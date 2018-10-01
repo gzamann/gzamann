@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
 }
@@ -57,7 +58,7 @@ html {
 body {
   color: #999;
   font-family: Pacifico;
-  background-image: url(../backgrounds/);
+  /* background-image: url(../backgrounds/); */
   background-size: contain;
   background-position: center;
   overflow: hidden;
@@ -87,7 +88,7 @@ p {
   animation-name: pop;
   animation-duration: .6s;
   animation-fill-mode: forwards;
-  /* filter: none; */
+  filter: none;
 }
 
 .social>a:nth-of-type(2) {
@@ -111,6 +112,7 @@ p {
     transform: scale(1.5);
     filter: none;
   }
+
   100% {
     transform: scale(1);
     filter: none;
@@ -142,7 +144,7 @@ p {
 }
 
 .cover2 {
-  font-size: ;
+  /* font-size: ; */
   width: 40%;
   z-index: 5;
   /* margin-top: 3%; */
@@ -203,41 +205,48 @@ p {
   background: #6a77df3b;
 }
 
-.backbox{
+.backbox {
   position: absolute;
   height: 100vh;
   width: 60vw;
   left: 22.5%;
   overflow: hidden;
-  transform:skewY(113deg) rotateY(0deg) rotateX(0deg);
+  transform: skewY(113deg) rotateY(0deg) rotateX(0deg);
   /* background: #eeeeee0f; */
-  background:#081421;
+  background: #081421;
   z-index: 1;
 }
 
 /* MEDIA QUERY */
 
 @media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
+
   /* .profile>img {
     border-radius: 20px;
   } */
-  html{
-  background: #3340A7;
+  html {
+    background: #3340A7;
   }
+
   .cover2>h1 {
     font-size: 50px;
   }
+
   .bio {
     font-size: 36px;
   }
+
   .social {
     width: 328px;
   }
+
   .social>a>img {
     height: 54px;
     width: 54px;
   }
-  .backbox{
+
+  .backbox {
     display: none;
   }
-  /* MEDIA QUERY END */
+
+/* MEDIA QUERY END */
