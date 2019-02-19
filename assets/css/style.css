@@ -175,15 +175,15 @@ p {
   /* float: left; */
 }
 
-/* #mepic {
+#mepic {
   filter: brightness(1.1) contrast(2.4) grayscale(1) hue-rotate(0deg) invert(0.32) saturate(0) sepia(0.11);
   transition: all ease-in-out 0.4s;
-} */
+}
 
-#mepic:hover {
+/* #mepic:hover {
   filter: none;
   box-shadow: -4px 4px 20px 2px #6a77df87;
-}
+} */
 
 .profile>img {
   /* margin-top: 18%; */
@@ -201,20 +201,39 @@ p {
 }
 
 .bio>p {
+  letter-spacing: 0.12em;
   display: inline;
   background: #6a77df3b;
 }
 
-.backbox {
-  position: absolute;
-  height: 100vh;
-  width: 60vw;
-  left: 22.5%;
-  overflow: hidden;
-  transform: skewY(113deg) rotateY(0deg) rotateX(0deg);
-  /* background: #eeeeee0f; */
-  background: #081421;
-  z-index: 1;
+.bio>p span {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.age:hover {
+  box-shadow: 0px -26px 0px 0em inset #03B5AA;
+}
+
+.city:hover {
+  color: darkgreen;
+  box-shadow: 0px -26px 0px 0em inset #DBFE87;
+}
+
+.details:hover {
+  color: #eee;
+  box-shadow: 0px -26px 0px 0em inset #F9627D;
+}
+
+.fend:hover {
+  color: #F8F7FF;
+  box-shadow: 0px -26px 0px 0em inset #FE5F55;
+}
+
+.ps {
+  display: block;
+  font-family: sans-serif;
+  font-size: 0.44em;
 }
 
 /* MEDIA QUERY */
@@ -244,9 +263,6 @@ p {
     height: 54px;
     width: 54px;
   }
-
-  .backbox {
-    display: none;
-  }
 }
+
 /* MEDIA QUERY END */
