@@ -166,8 +166,7 @@ p {
 
 .bio {
   font-size: 20px;
-  letter-spacing: 2px;
-  z-index: 10;
+  z-index: 2;
 }
 
 .profile {
@@ -252,7 +251,7 @@ p {
   }
 
   .bio {
-    font-size: 36px;
+    font-size: 25px;
   }
 
   .social {
