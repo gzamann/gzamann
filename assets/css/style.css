@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700); */
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
@@ -237,7 +237,7 @@ p {
 
 /* MEDIA QUERY */
 
-@media screen and (min-width: 400px) and (min-height: 700px) and (orientation: portrait) {
+@media screen and (min-width: 400px) and (min-height: 700px) {
 
   /* .profile>img {
     border-radius: 20px;
