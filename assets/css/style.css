@@ -174,10 +174,10 @@ p {
   /* float: left; */
 }
 
-#mepic {
+/* #mepic {
   filter: brightness(1.1) contrast(2.4) grayscale(1) hue-rotate(0deg) invert(0.32) saturate(0) sepia(0.11);
   transition: all ease-in-out 0.4s;
-}
+} */
 
 /* #mepic:hover {
   filter: none;
