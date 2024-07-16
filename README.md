@@ -2,8 +2,18 @@
 
 <h2 align="center">Welcome to my Github.</h2>
 
-I'm a Front-end engineer based in Bengaluru <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Auto%20Rickshaw.png" alt="Auto Rickshaw" width="25" />
+### About me:
 
-Working on the Readme* <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Building%20Construction.png" alt="Building Construction" width="25" height="25" />
+* I'm a Front-end engineer based in Bengaluru <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Auto%20Rickshaw.png" alt="Auto Rickshaw" width="25" />
+* 4+ years at building [@learnyst](https://github.com/learnyst)
+* Currently Sr. Software Eng. at [@healspan](https://github.com/healspan)
+* Writing tech articles at [hashnode](https://gzamann.hashnode.dev/) ✍
+-----------
+**Tech stack**
 
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" height="20" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="20" /> <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" height="20" /> <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" height="20" />
+----------
+### Connect with me
+<a href="https://www.linkedin.com/in/gzamann">
+  <img height="32" width="32" src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" />
+</a>
