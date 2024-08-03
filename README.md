@@ -5,10 +5,11 @@
 ### About me:
 
 * I'm a Front-end engineer based in Bengaluru <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Auto%20Rickshaw.png" alt="Auto Rickshaw" width="25" />
+* Sr. Software Eng. at [@healspan](https://github.com/healspan)
 * 4+ years at building [@learnyst](https://github.com/learnyst)
-* Currently Sr. Software Eng. at [@healspan](https://github.com/healspan)
 * Writing tech articles at [hashnode](https://gzamann.hashnode.dev/) ✍
 
+#### Recent Posts:
 <!-- BLOGPOSTS:START -->
  - 📝 [TL;DR: Baseline](https://gzamann.hashnode.dev/tldr-baseline)
  - 📝 [Resources: Learn Git](https://gzamann.hashnode.dev/resources-learn-git)
