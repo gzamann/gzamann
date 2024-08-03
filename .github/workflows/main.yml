@@ -15,6 +15,6 @@ jobs:
         with:
           comment_tag_name: "BLOGPOSTS"
           feed_list: "https://gzamann.hashnode.dev/rss.xml"
-          template: "$newline - $randomEmoji(📝,🌮) [$title]($url)"
+          template: "$newline - $randomEmoji(💡,✏️,🛹,🍻,🍍) [$title]($url)"
           commit_message: "recent posts section updated"
           gh_token: "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"
