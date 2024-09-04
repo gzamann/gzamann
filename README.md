@@ -5,7 +5,7 @@
 ### About me:
 
 * I'm a Front-end engineer based in Bengaluru <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Auto%20Rickshaw.png" alt="Auto Rickshaw" width="25" />
-* Sr. Software Eng. at [@healspan](https://github.com/healspan)
+* Frontend Engineer at [@DataForIndia](https://github.com/dataforindia)
 * 4+ years at building [@learnyst](https://github.com/learnyst)
 * Writing tech articles at [hashnode](https://gzamann.hashnode.dev/) ✍
 
