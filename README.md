@@ -11,11 +11,11 @@
 
 #### Recent Posts:
 <!-- BLOGPOSTS:START -->
- - ✏️ [Error Monitoring for Web Apps](https://gzamann.hashnode.dev/error-monitoring-for-web-apps)
- - 💡 [TL;DR: Baseline](https://gzamann.hashnode.dev/tldr-baseline)
- - 🍻 [Resources: Learn Git](https://gzamann.hashnode.dev/resources-learn-git)
- - 🍍 [QuickTip: Writing Shared &lpar;common&rpar; reducer actions in redux-toolkit](https://gzamann.hashnode.dev/quicktip-writing-shared-common-reducer-actions-in-redux-toolkit)
- - 🍍 [Performing Maintenance Task For A Large Codebase](https://gzamann.hashnode.dev/performing-maintenance-task-for-a-large-codebase)<!-- BLOGPOSTS:END -->
+ - ✏️ [Resources: Data Viz](https://gzamann.hashnode.dev/resources-data-viz)
+ - 💡 [Error Monitoring for Web Apps](https://gzamann.hashnode.dev/error-monitoring-for-web-apps)
+ - 🍻 [TL;DR: Baseline](https://gzamann.hashnode.dev/tldr-baseline)
+ - 🍍 [Resources: Learn Git](https://gzamann.hashnode.dev/resources-learn-git)
+ - 🍍 [QuickTip: Writing Shared &lpar;common&rpar; reducer actions in redux-toolkit](https://gzamann.hashnode.dev/quicktip-writing-shared-common-reducer-actions-in-redux-toolkit)<!-- BLOGPOSTS:END -->
 -----------
 **Tech stack**
 
