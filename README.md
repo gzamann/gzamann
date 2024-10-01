@@ -11,8 +11,8 @@
 
 #### Recent Posts:
 <!-- BLOGPOSTS:START -->
- - ✏️ [How not to kill Accessibility](https://gzamann.hashnode.dev/how-not-to-kill-accessibility)
- - 💡 [Resources: Data Viz](https://gzamann.hashnode.dev/resources-data-viz)
+ - ✏️ [How to not break Web Accessibility](https://gzamann.hashnode.dev/how-not-to-kill-accessibility)
+ - 💡 [Resources: Data Visualisation](https://gzamann.hashnode.dev/resources-data-viz)
  - 🍻 [Error Monitoring for Web Apps](https://gzamann.hashnode.dev/error-monitoring-for-web-apps)
  - 🍍 [TL;DR: Baseline](https://gzamann.hashnode.dev/tldr-baseline)
  - 🍍 [Resources: Learn Git](https://gzamann.hashnode.dev/resources-learn-git)<!-- BLOGPOSTS:END -->
